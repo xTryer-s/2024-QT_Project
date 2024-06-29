@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubWindow1</class>
+ <widget class="QMainWindow" name="SubWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1952</width>
+    <height>1598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/resourse/3.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Output_button">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>1210</y>
+      <width>301</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.4.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RevokeOperation_button">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>1320</y>
+      <width>171</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.3.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="GaussianBlur_button">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>1100</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.12.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Brightness_down_button">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>1300</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.5.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rotate_button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>1090</y>
+      <width>191</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);
+background-image: url(:/new/resourse/3.10.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Backtoorigin_button">
+    <property name="geometry">
+     <rect>
+      <x>1450</x>
+      <y>1310</y>
+      <width>301</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.6.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Flip_Vertical_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>1180</y>
+      <width>341</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.15.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Flip_Horizontal_button">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1270</y>
+      <width>381</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);
+background-image: url(:/new/resourse/3.1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Brightness_up_button">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>1190</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.8.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picture_display">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>This is a picture...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Contrast_up_button">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>1210</y>
+      <width>341</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.16.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Contrast_down_button">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>1300</y>
+      <width>351</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.2.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="SpecialEffects_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>1100</y>
+      <width>341</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0);
+font: 40pt &quot;楷体&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>特效预设</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>无</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>灰度图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>冷色调</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>暖色调</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>怀旧</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>羽化</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>浮雕</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>漫画</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>素描图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HSV图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>边缘描绘</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>HLS图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lab图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luv图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>XYZ图</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>YUV图</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="Crop_button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>1100</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.11.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FreeDraw_button">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>1080</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.7.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExitToMain_button">
+    <property name="geometry">
+     <rect>
+      <x>1780</x>
+      <y>1310</y>
+      <width>191</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.14.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Input_button">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>1110</y>
+      <width>301</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.18.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Stickpicture_button">
+    <property name="geometry">
+     <rect>
+      <x>1770</x>
+      <y>1090</y>
+      <width>211</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.17.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddText_button">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>1200</y>
+      <width>281</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/resourse/3.13.png);
+background-color: rgba(0, 0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>Rotate_button</zorder>
+   <zorder>GaussianBlur_button</zorder>
+   <zorder>Brightness_down_button</zorder>
+   <zorder>Output_button</zorder>
+   <zorder>Backtoorigin_button</zorder>
+   <zorder>RevokeOperation_button</zorder>
+   <zorder>Flip_Horizontal_button</zorder>
+   <zorder>Brightness_up_button</zorder>
+   <zorder>Flip_Vertical_button</zorder>
+   <zorder>picture_display</zorder>
+   <zorder>Contrast_up_button</zorder>
+   <zorder>Contrast_down_button</zorder>
+   <zorder>SpecialEffects_comboBox</zorder>
+   <zorder>Crop_button</zorder>
+   <zorder>FreeDraw_button</zorder>
+   <zorder>ExitToMain_button</zorder>
+   <zorder>Input_button</zorder>
+   <zorder>Stickpicture_button</zorder>
+   <zorder>AddText_button</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1952</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPicture">
+    <property name="title">
+     <string>Picture</string>
+    </property>
+    <addaction name="actionInput_Picture"/>
+    <addaction name="actionOutput_Picture"/>
+   </widget>
+   <addaction name="menuPicture"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionInput_Picture">
+   <property name="text">
+    <string>Input_Picture</string>
+   </property>
+  </action>
+  <action name="actionOutput_Picture">
+   <property name="text">
+    <string>Output_Picture</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
