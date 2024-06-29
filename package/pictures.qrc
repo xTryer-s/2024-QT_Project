@@ -1,0 +1,57 @@
+<RCC>
+    <qresource prefix="/new">
+        <file>resourse/1.1.png</file>
+        <file>resourse/1.2.png</file>
+        <file>resourse/1.3.png</file>
+        <file>resourse/1.4.png</file>
+        <file>resourse/1.png</file>
+        <file>resourse/2.1 .png</file>
+        <file>resourse/2.2.png</file>
+        <file>resourse/2.3.png</file>
+        <file>resourse/2.4.png</file>
+        <file>resourse/2.5.png</file>
+        <file>resourse/2.6.png</file>
+        <file>resourse/2.png</file>
+        <file>resourse/3.1.png</file>
+        <file>resourse/3.2.png</file>
+        <file>resourse/3.3.png</file>
+        <file>resourse/3.4.png</file>
+        <file>resourse/3.5.png</file>
+        <file>resourse/3.6.png</file>
+        <file>resourse/3.7.png</file>
+        <file>resourse/3.8.png</file>
+        <file>resourse/3.9.png</file>
+        <file>resourse/3.10.png</file>
+        <file>resourse/3.11.png</file>
+        <file>resourse/3.12.png</file>
+        <file>resourse/3.13.png</file>
+        <file>resourse/3.14.png</file>
+        <file>resourse/3.15.png</file>
+        <file>resourse/3.16.png</file>
+        <file>resourse/3.17.png</file>
+        <file>resourse/3.18.png</file>
+        <file>resourse/3.jpg</file>
+        <file>resourse/4.1.png</file>
+        <file>resourse/4.2.png</file>
+        <file>resourse/4.3.png</file>
+        <file>resourse/4.4.png</file>
+        <file>resourse/4.5.png</file>
+        <file>resourse/4.6.png</file>
+        <file>resourse/4.7.png</file>
+        <file>resourse/4.8.png</file>
+        <file>resourse/4.9.png</file>
+        <file>resourse/4.10.png</file>
+        <file>resourse/4.jpg</file>
+        <file>resourse/5.1.png</file>
+        <file>resourse/5.2.png</file>
+        <file>resourse/5.3.png</file>
+        <file>resourse/5.4.png</file>
+        <file>resourse/5.5.png</file>
+        <file>resourse/5.6.png</file>
+        <file>resourse/5.7.png</file>
+        <file>resourse/5.8.png</file>
+        <file>resourse/5.9.png</file>
+        <file>resourse/5.jpg</file>
+        <file>resourse/sptx.png</file>
+    </qresource>
+</RCC>
